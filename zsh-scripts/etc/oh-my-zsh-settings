@@ -5,7 +5,8 @@ export ZSH=$HOME/.zsh/
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="ztane"
+#ZSH_THEME="ztane"
+ZSH_THEME="agnoster"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -35,3 +36,4 @@ ZSH_THEME="ztane"
 plugins=(git)
 
 # Customize to your needs...
+DEFAULT_USER="frakern"
