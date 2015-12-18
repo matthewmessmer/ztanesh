@@ -7,11 +7,11 @@ will make your shell more powerful and easier to use.
 
 .. contents ::
 
-.. image:: https://github.com/downloads/miohtama/ztanesh/Screen%20shot%202012-05-07%20at%207.52.12%20PM.png
+.. image:: https://cloud.github.com/downloads/miohtama/ztanesh/Screen%20shot%202012-05-07%20at%207.52.12%20PM.png
 
 *The screenshot above shows additional ls coloring. Prompt: top left is active virtualenv etc. development environment, top right is server, time, bottom right is path*.
 
-.. image:: https://github.com/downloads/miohtama/ztanesh/Screen%20Shot%202012-05-22%20at%2011.01.46%20PM.png
+.. image:: https://cloud.github.com/downloads/miohtama/ztanesh/Screen%20Shot%202012-05-22%20at%2011.01.46%20PM.png
 
 *Colorize terminal tabs automatically based on which server you are logged in. No need to preconfigure servers - the color is calculated from the hostname*
 
@@ -86,10 +86,14 @@ Install `GNU userland tools <http://opensourcehacker.com/2012/04/27/python-and-j
 `Macports <http://macports.org>`_::
 
     brew install zsh coreutils lesspipe findutils highlight
+    
+Setup python2 alias::
+
+	sudo ln -sf /usr/bin/python2.7 /usr/local/bin/python2
 
 Clone ztanesh::
 
-    git clone git://github.com/h25/ztanesh.git ~/tools
+    git clone git://github.com/matthewmessmer/ztanesh.git ~/tools
     ~/tools/zsh-scripts/setup.zsh
 
 Test that ZSH starts properly::
