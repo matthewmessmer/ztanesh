@@ -7,5 +7,5 @@ fi
 
 dir=$(dirname $0)
 (cd /etc/skel && 
- git clone https://github.com/miohtama/ztanesh tools &&
- echo '~/tools/zsh-scripts/setup.zsh && exec zsh' > .zshrc)
+ git clone https://github.com/ztane/ztanesh tools &&
+ zsh $dir/setup.zsh /etc/skel)
