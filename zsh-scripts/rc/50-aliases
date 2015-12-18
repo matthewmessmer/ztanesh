@@ -13,6 +13,9 @@ alias -g .....='../../../..'
 alias -g ....='../../..'
 alias -g ...='../..'
 
+# This ain't IRC
+alias /quit=exit
+
 alias c='clear'
 alias cd.......='cd ../../../../../..'
 alias cd......='cd ../../../../..'
@@ -94,7 +97,7 @@ _alias_unexisting_with_existing ooweb loweb
 # Super colorizations - these absolutely require python2
 if _is_command python2
 then
-    alias ls='lsx -lach'
+    alias ls='lsx -h'
     if _is_command peacock
     then
         alias svn='peacock svn'
