@@ -4,5 +4,6 @@ allrcs
 allrcs.zwc
 .DS_Store
 zsh-scripts/cache
+binfix/python2
 *.pyc
 WebIdeConfigManager
