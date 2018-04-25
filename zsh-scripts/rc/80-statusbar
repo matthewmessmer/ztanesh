@@ -22,7 +22,6 @@ add-zsh-hook preexec statusbar_preexec
 stacked_dirs=()
 
 function statusbar_precmd {
-       setup_prompt
        stacked_dirs=("$(pwd)" $dirstack);
        saved_dirstack=($dirstack)
        stacked_dirs_current=1
