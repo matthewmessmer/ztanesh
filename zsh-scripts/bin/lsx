@@ -157,7 +157,7 @@ class Runner(object):
 
         for i in ls_pipe.stdout:
             i = LINE_REGEX.sub(self.do_line_subst, i.decode('utf-8'))
-            sys.stdout.write(i)
+            sys.stdout.write(i.encode('utf-8'))
 
         sys.exit(ls_pipe.returncode)
 
